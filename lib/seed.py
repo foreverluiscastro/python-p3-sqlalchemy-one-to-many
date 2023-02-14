@@ -17,6 +17,8 @@ if __name__ == '__main__':
     session.query(Review).delete()
 
     fake = Faker()
+    
+    print("Seeding database...")
 
     genres = ['action', 'adventure', 'strategy',
         'puzzle', 'first-person shooter', 'racing']
